@@ -26,7 +26,7 @@ const SideNav = () => {
          <div className="flex flex-col h-full justify-between items-center">
             <div className="flex flex-col gap-20">
                <span className="rounded-full bg-blue-950 text-white px-2 text-xl">
-                  P
+                  d
                </span>
                <div className="flex flex-col justify-center items-center gap-8">
                   {navItems.map(({ path, Icon }, index) => (
