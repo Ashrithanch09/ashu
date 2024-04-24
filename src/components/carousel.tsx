@@ -3,44 +3,37 @@ import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import { FaArrowAltCircleRight as RightIcon } from "react-icons/fa"
 import { FaArrowAltCircleLeft as LeftIcon } from "react-icons/fa"
-import banking from "../../public/assets/banking.jpg"
-import business from "../../public/assets/business.png"
-import capex from "../../public/assets/capex.png"
-import chart from "../../public/assets/chart.avif"
-import workingCapital from "../../public/assets/workingCapital.avif"
+import market from "../../public/assets/market.png"
+import Capex from "../../public/assets/Capex.png"
+import Taxes from "../../public/assets/Taxes.png"
+import monitor from "../../public/assets/monitor.png"
 
 const Carousel = () => {
    const carouselData = [
       {
-         img: business,
-         title: "Business Strategies",
+         img: market,
+         title: "State of Markets",
          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, architecto?",
+            "The market capitalisation of Indian stocks crossed US$4.5 trillion in January",
       },
       {
-         img: banking,
-         title: "Banking Sector",
+         img: Capex,
+         title: "The Central Capex Surge",
          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, asperiores.",
+            "The last few years have seen a very substantial step up in capital",
       },
 
       {
-         img: capex,
-         title: "Capex",
+         img: Taxes,
+         title: "Direct Taxes and Business Cycle",
          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur.",
+            "The shore of direct taxes in total tax collections of the Central government.",
       },
       {
-         img: workingCapital,
-         title: "Working Capital",
+         img: monitor,
+         title: "Banking Monitor",
          description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, suscipit.",
-      },
-      {
-         img: chart,
-         title: "Statistics",
-         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit..",
+            "Credit growth has remained broadly stable in recent weeks at just",
       },
    ]
 
