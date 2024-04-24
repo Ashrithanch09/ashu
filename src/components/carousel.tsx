@@ -27,7 +27,34 @@ const Carousel = () => {
          img: Taxes,
          title: "Direct Taxes and Business Cycle",
          description:
-            "The shore of direct taxes in total tax collections of the Central government.",
+            "The share of direct taxes in total tax collections of the Central government.",
+      },
+      {
+         img: monitor,
+         title: "Banking Monitor",
+         description:
+            "Credit growth has remained broadly stable in recent weeks at just",
+      },
+   ]
+   const carouselData = [
+      {
+         img: market,
+         title: "State of Markets",
+         description:
+            "The market capitalisation of Indian stocks crossed US$4.5 trillion in January",
+      },
+      {
+         img: Capex,
+         title: "The Central Capex Surge",
+         description:
+            "The last few years have seen a very substantial step up in capital",
+      },
+
+      {
+         img: Taxes,
+         title: "Direct Taxes and Business Cycle",
+         description:
+            "The share of direct taxes in total tax collections of the Central government.",
       },
       {
          img: monitor,
