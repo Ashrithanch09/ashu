@@ -15,7 +15,7 @@ const Header = () => {
    return (
       <div className="flex justify-between items-center px-7 pt-3 pb-20 bg-indigo-950 text-white">
          <div className="flex flex-col">
-            <span className="text-lg ">Good Afternoon, Pranav</span>
+            <span className="text-lg ">Good Afternoon, Akshay</span>
             <span className="text-sm text-neutral-400">
                You are subscribed to Retail Plan
             </span>
